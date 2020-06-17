@@ -1,3 +1,4 @@
 <profile version="1.0">
   <option name="myName" value="owllife" />
+  <inspection_tool class="PropertyName" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
 </profile>
