@@ -1,0 +1,13 @@
+<templateSet group="Kotlin">
+  <template name="adpt" value="class $class$(private val clickListener: (item: $model$) -&gt; Unit) :&#10;    RecyclerView.Adapter&lt;$class$.$holder$&gt;() {&#10;    &#10;    var items = arrayListOf&lt;$model$&gt;()&#10;    &#10;    class $holder$(val binding: $binding$) : RecyclerView.ViewHolder(binding.root)&#10;&#10;    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): $holder$ {&#10;        val view = LayoutInflater.from(parent.context)&#10;            .inflate(R.layout.$layout$, parent, false)&#10;        val viewHolder = $holder$($binding$.bind(view))&#10;        view.setOnClickListener {&#10;            clickListener.invoke(items[viewHolder.adapterPosition])&#10;        }&#10;        return viewHolder&#10;    }&#10;&#10;    override fun getItemCount() = items.size&#10;&#10;    override fun onBindViewHolder(holder: $holder$, position: Int) {&#10;        holder.binding.$var$ = items[position]&#10;    }&#10;}" description="RecyclerView Adapter" toReformat="false" toShortenFQNames="true">
+    <variable name="class" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="model" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="holder" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="binding" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="layout" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>
