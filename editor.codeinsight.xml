@@ -1,0 +1,5 @@
+<application>
+  <component name="AndroidJniEditorSettings">
+    <option name="foldJniMangledFunctionName" value="false" />
+  </component>
+</application>
