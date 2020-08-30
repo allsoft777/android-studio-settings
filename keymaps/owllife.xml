@@ -1,4 +1,8 @@
 <keymap version="1" name="owllife" parent="Eclipse">
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt f12" />
+    <keyboard-shortcut first-keystroke="f12" />
+  </action>
   <action id="CloseActiveTab" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl f4" />
@@ -7,9 +11,7 @@
   <action id="CollapseSelection" />
   <action id="DuplicatesForm.SendToLeft" />
   <action id="DuplicatesForm.SendToRight" />
-  <action id="EditSource">
-    <keyboard-shortcut first-keystroke="f12" />
-  </action>
+  <action id="EditSource" />
   <action id="EditorChooseLookupItemDot" />
   <action id="FileChooser.GotoHome" />
   <action id="FileChooser.GotoProject" />
@@ -34,9 +36,7 @@
     <keyboard-shortcut first-keystroke="ctrl f7" />
     <keyboard-shortcut first-keystroke="ctrl 2" />
   </action>
-  <action id="OpenModuleSettings">
-    <keyboard-shortcut first-keystroke="f12" />
-  </action>
+  <action id="OpenModuleSettings" />
   <action id="PreviousDiff">
     <keyboard-shortcut first-keystroke="shift f7" />
     <keyboard-shortcut first-keystroke="ctrl 1" />
@@ -46,15 +46,11 @@
   <action id="SwitcherIterateItems" />
   <action id="SwitcherRecentEditedChangedToggleCheckBox" />
   <action id="UpdateRunningApplication" />
-  <action id="Vcs.EditSource">
-    <keyboard-shortcut first-keystroke="f12" />
-  </action>
+  <action id="Vcs.EditSource" />
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
-  <action id="XDebugger.JumpToSource">
-    <keyboard-shortcut first-keystroke="f12" />
-  </action>
+  <action id="XDebugger.JumpToSource" />
   <action id="android.deploy.ApplyChanges">
     <keyboard-shortcut first-keystroke="ctrl f10" />
   </action>
