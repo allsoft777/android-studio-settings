@@ -16,7 +16,6 @@
   <action id="FileChooser.GotoHome" />
   <action id="FileChooser.GotoProject" />
   <action id="FindInPath">
-    <keyboard-shortcut first-keystroke="ctrl h" />
     <keyboard-shortcut first-keystroke="shift ctrl e" />
   </action>
   <action id="GotoBookmark1" />
@@ -49,6 +48,9 @@
   <action id="Vcs.EditSource" />
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
+  <action id="Vcs.ShowTabbedFileHistory">
+    <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
   <action id="XDebugger.JumpToSource" />
   <action id="android.deploy.ApplyChanges">
