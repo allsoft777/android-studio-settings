@@ -12,6 +12,7 @@
     <option name="AUTO_POPUP_JAVADOC_INFO" value="true" />
     <option name="JAVADOC_INFO_DELAY" value="500" />
     <option name="COMPLETION_CASE_SENSITIVE" value="2" />
+    <EXCLUDED_PACKAGE NAME="android.content.Context" />
   </component>
   <component name="DefaultFont">
     <option name="FONT_SIZE" value="14" />
