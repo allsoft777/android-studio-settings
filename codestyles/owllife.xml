@@ -40,6 +40,9 @@
     <option name="XML_KEEP_BLANK_LINES" value="1" />
     <option name="XML_SPACE_INSIDE_EMPTY_TAG" value="false" />
   </XML>
+  <codeStyleSettings language="Dart">
+    <option name="RIGHT_MARGIN" value="120" />
+  </codeStyleSettings>
   <codeStyleSettings language="JAVA">
     <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="1" />
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
