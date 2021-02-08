@@ -2,4 +2,7 @@
   <component name="AndroidJniEditorSettings">
     <option name="foldJniMangledFunctionName" value="false" />
   </component>
+  <component name="KotlinCodeInsightSettings">
+    <option name="addUnambiguousImportsOnTheFly" value="true" />
+  </component>
 </application>
