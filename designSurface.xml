@@ -1,0 +1,11 @@
+<application>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/kims1/AndroidStudioProjects/ExercisingDiary/presentation/src/main/res/layout/exercising_main_category_frag.xml" value="0.1" />
+        <entry key="..\:/Users/kims1/AndroidStudioProjects/ExercisingDiary/presentation/src/main/res/layout/main_activity.xml" value="0.1" />
+        <entry key="..\:/Users/kims1/AndroidStudioProjects/ExercisingDiary/presentation/src/main/res/layout/pick_main_category_activity.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+</application>
