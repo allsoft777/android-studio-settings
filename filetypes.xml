@@ -9,6 +9,8 @@
       <mapping pattern="tmp" type="PLAIN_TEXT" />
       <mapping pattern="aa" type="PLAIN_TEXT" />
       <mapping ext="kapt_metadata" type="PLAIN_TEXT" />
+      <mapping ext="db" type="SQL" />
+      <removed_mapping ext="db" type="SqlDelight Database" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="psd" approved="true" type="Image" />
     </extensionMap>
