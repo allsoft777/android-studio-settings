@@ -46,6 +46,10 @@
           <option name="url" value="https://github.com/favist/typescript-monorepo.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/woopsla/KotlinCoroutines-demo.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\kims1\StudioProjects" />
